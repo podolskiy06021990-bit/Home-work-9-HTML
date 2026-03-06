@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+</head>
+<body>
+<form action="/feedback" method="POST">
+    <label for="drink">Выберете ваш любимый напиток </label></br>
+ <select name="drink" id="drink" required>
+        <option value="" disabled selected>-- Выберите напиток --</option>
+        <option value="tea">Чай</option>
+        <option value="kafe">Кофе</option>
+        <option value="smuz">Смузи</option>
+     <option value="hot chocolate">Горячий шоколад</option>
+
+    </select>
+
+    <button type="submit">Отправить</button>
+</form>
+</body>
+</html>
